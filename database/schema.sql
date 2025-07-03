@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS cotacoes_db;
+
+USE cotacoes_db;
+
+CREATE TABLE IF NOT EXISTS cotacoes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    moeda VARCHAR(10) NOT NULL,
+    valor DECIMAL(15, 6) NOT NULL,
+    data_hora DATETIME NOT NULL
+);
