@@ -62,6 +62,10 @@ CREATE TABLE IF NOT EXISTS cotacoes (
     valor DECIMAL(15, 6) NOT NULL,
     data_hora DATETIME NOT NULL
 );
+
+```
+
+---
 3. Instale as dependências
 pip install -r requirements.txt
 
@@ -69,9 +73,12 @@ pip install -r requirements.txt
 python main.py
 💡 Exemplo de uso no terminal
 
+---
 === COTAÇÃO DE MOEDAS ===
 1 - Buscar e salvar cotações
 0 - Sair
+
+---
 🔒 .gitignore recomendado
 gitignore
 Copiar
@@ -82,6 +89,7 @@ __pycache__/
 .env
 *.log
 
+---
 📄 Licença
 Este projeto é de uso livre para fins de estudo.
 Desenvolvido por Gleydson Luidy
