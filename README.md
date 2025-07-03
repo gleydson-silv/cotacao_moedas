@@ -71,13 +71,6 @@ pip install -r requirements.txt
 
 4. ## Execute o programa
 python main.py
-💡 Exemplo de uso no terminal
-=== COTAÇÃO DE MOEDAS ===
-1 - Buscar e salvar cotações
-0 - Sair
-
-
-
 
 ---
 ## Licença
