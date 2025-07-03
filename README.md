@@ -66,30 +66,20 @@ CREATE TABLE IF NOT EXISTS cotacoes (
 ```
 
 ---
-3. Instale as dependências
+3. ## Instale as dependências
 pip install -r requirements.txt
 
-4. Execute o programa
+4. ## Execute o programa
 python main.py
 💡 Exemplo de uso no terminal
-
----
 === COTAÇÃO DE MOEDAS ===
 1 - Buscar e salvar cotações
 0 - Sair
 
----
-🔒 .gitignore recomendado
-gitignore
-Copiar
-Editar
-__pycache__/
-*.pyc
-*.pyo
-.env
-*.log
+
+
 
 ---
-📄 Licença
+## Licença
 Este projeto é de uso livre para fins de estudo.
 Desenvolvido por Gleydson Luidy
